@@ -1,6 +1,225 @@
 <fable>
-	<page>
   
+	<page background="menu.png">
+  	
+   
+    
+    <agent 
+      text="START GAME" color="midnightblue" 
+      x="205" y="130" width="300" on-touch="_NEXT_PAGE"/> 
+      
+  </page>
+    
+  
+  
+  <page background="texton.png">
+  	
+    <agent 
+      text="- Shiki Tohno é um estudante japonês que sofre de anemia e mora na mansão de uma família rica." color="white" 
+      x="20" y="380" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="250" y="380" width="20" height="15"/>
+  </page>
+  
+  
+  
+  <page background="texton.png">
+    
+    <agent 
+      text="- Shiki Tohno é um estudante japonês que sofre de anemia e mora na mansão de uma família rica." color="white" 
+      x="20" y="380" width="480"/> 
+    <agent 
+      text="- Um certo dia, ele desmaiou no meio da aula e foi levado para a enfermaria." color="white" 
+      x="20" y="340" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="110" y="340" width="20" height="15"/>
+  </page>
+  
+  
+  
+  <page background="enfermaria2.png">
+  	
+    <agent 
+      text="- Shiki Tohno é um estudante japonês que sofre de anemia e mora na mansão de uma família rica." color="white" 
+      x="20" y="380" width="480"/> 
+    <agent 
+      text="- Um certo dia, ele desmaiou no meio da aula e foi levado para a enfermaria." color="white" 
+      x="20" y="340" width="480"/> 
+    <agent 
+      text="- Logo depois, ele desperta e resolve ir para casa. Contudo, no meio do caminho, ele avista uma mulher branca e logo perde a consciência ao vê-la." color="white" 
+      x="20" y="290" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="180" y="290" width="20" height="15"/>
+  </page>
+  
+  <page background="texton.png">
+  	
+    <agent 
+      text="- Shiki logo se levanta novamente em um lugar completamente estranho." color="white" 
+      x="20" y="380" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="90" y="380" width="20" height="15"/>
+  </page>
+  
+  <page background="lugarestranho.png">
+  	
+    <agent 
+      text="- Shiki logo se levanta novamente em um lugar completamente estranho." color="white" 
+      x="20" y="380" width="480"/> 
+    <agent 
+      text='"Mas...que lugar é esse?"' color="white" 
+      x="20" y="360" width="480" on-touch="_NEXT_PAGE"/>
+      <agent img="seta.png" x="200" y="360" width="20" height="15"/>
+  </page>
+  
+  
+  
+  <page background="lugarestranho.png">
+  	<agent img="lobinho.png" x="70" y="65" width="311" height="175"/>
+    <agent 
+      text="- Shiki logo se levanta novamente em um lugar completamente estranho." color="white" 
+      x="20" y="380" width="480"/> 
+    <agent 
+      text='"Mas...que lugar é esse?"' color="white" 
+      x="20" y="360" width="480"/>
+    <agent 
+      text="Ele segue as tochas e se depara com um LOBO GIGANTE, que devora uma pessoa em sua frente. Shiki confunde a pessoa com a loira do começo e entra em choque." color="white" 
+      x="20" y="300" width="480" on-touch="_NEXT_PAGE"/>
+      <agent img="seta.png" x="280" y="300" width="20" height="15"/>
     
   </page>
+  
+  <page background="lugarestranho.png">
+  	<agent img="lobinho5.png" x="20" y="65" width="450" height="300"/>
+    <agent 
+      text="- O lobo começa a partir para a cima dele. Ele encontrar uma faca em seu bolso. O que Shiki faz?" color="white" 
+      x="20" y="380" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="240" y="380" width="20" height="15"/>
+    
+  </page>
+  
+  
+  
+  <page background="lugarestranho.png">
+  	<agent img="lobinho3.png" x="20" y="65" width="450" height="300"/>
+    <agent 
+      text="Escolha:" color="white" font-size="20"
+      x="200" y="340" width="300"/> 
+    <agent 
+    <agent 
+      text="Tentar enfrentar o lobo" color="white" font-size="20"
+      x="130" y="300" width="300" on-touch="_GOTO_PAGE:10"/> 
+    <agent 
+      text="Tentar fugir do lobo" color="white" font-size="20"
+      x="145" y="200" width="300" on-touch="_GOTO_PAGE:12"/>  
+    
+  </page>
+      
+      
+      
+  <page background="vermelho.png">
+    <agent 
+      text="- Shiki tenta lutar contra o lobo, mas não dá muito certo e o lobo o devora vivo..." color="white" 
+      x="20" y="380" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="120" y="380" width="20" height="15"/>
+    
+  </page>
+	
+      
+      
+  <page background="vermelho.png">
+  	
+    <agent 
+      text="Você morreu." color="white" font-size="30"
+      x="150" y="300" width="300"/> 
+    <agent 
+    <agent 
+      text="Tentar e novo?" color="white" font-size="20"
+      x="180" y="270" width="300" on-touch="_GOTO_PAGE:1"/> 
+    
+  </page>
+      
+  <page background="texton.png">
+    <agent 
+      text="- Shiki tenta fugir do lobo, mas o lobo acaba por acerta-lo bem forte o jogando bem longe, fazendo assim com que seus óculos voem longe." color="white" 
+      x="20" y="380" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="120" y="380" width="20" height="15"/>
+    
+  </page>
+      
+  <page background="texton.png">
+    <agent 
+      text="- Shiki tenta fugir do lobo, mas o lobo acaba por acerta-lo bem forte o jogando bem longe, fazendo assim com que seus óculos voem longe." color="white" 
+      x="20" y="380" width="480"/> 
+      <agent 
+      text="- Após ser jogado pra longe, Shiki sente algo despertando em seu corpo, como se ele agora pudesse bater de frente com o lobo." color="white" 
+      x="20" y="340" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="460" y="340" width="20" height="15"/>
+    
+  </page>
+      
+  <page background="texton.png">
+    <agent 
+      text="- Shiki tenta fugir do lobo, mas o lobo acaba por acerta-lo bem forte o jogando bem longe, fazendo assim com que seus óculos voem longe." color="white" 
+      x="20" y="380" width="480"/> 
+      <agent 
+      text="- Após ser jogado pra longe, Shiki sente algo despertando em seu corpo, como se ele agora pudesse bater de frente com o lobo." color="white" 
+      x="20" y="340" width="480"/> 
+      <agent 
+      text="- Então, Shiki derrota o lobo e ressolve seguir em frente." color="white" 
+      x="20" y="300" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="420" y="300" width="20" height="15"/>
+    
+  </page>
+      
+      
+      
+  <page background="lugarestranho.png">
+    <agent img="arcueid.png" x="140" y="65" width="170" height="300"/>
+    <agent 
+      text="- Depois de andar por muito tempo, Shiki econtra uma silhueta familiar e tenta falar com ela." color="white" 
+      x="20" y="380" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="240" y="380" width="20" height="15"/>
+    
+  </page>
+      
+      
+      
+  <page background="texton.png">
+    <agent 
+      text="- Depois de andar por muito tempo, Shiki econtra uma silhueta familiar e tenta falar com ela." color="white" 
+      x="20" y="380" width="480"/> 
+    <agent 
+      text="- Mas, cada vez mais que ele se aproxima, sua consciência vai sumindo aos poucos até que em certo momento ele desmaia por completo." color="white" 
+      x="20" y="320" width="480" on-touch="_NEXT_PAGE"/> 
+      <agent img="seta.png" x="100" y="320" width="20" height="15"/>
+    
+  </page>
+      
+  
+      
+  <page background="enfermaria2.png">
+    <agent 
+      text="- Depois de andar por muito tempo, Shiki econtra uma silhueta familiar e tenta falar com ela." color="white" 
+      x="20" y="380" width="480"/> 
+    <agent 
+      text="- Mas, cada vez mais que ele se aproxima, sua consciência vai sumindo aos poucos até que em certo momento ele desmaia por completo." color="white" 
+      x="20" y="320" width="480"/> 
+    <agent 
+      text="- Até que então ele acorda na enfermaria e descobre que tu do é um sonho..." color="white" 
+      x="20" y="280" width="480" on-touch="_NEXT_PAGE"/>
+      <agent img="seta.png" x="120" y="280" width="20" height="15"/>
+    
+  </page>
+	
+      
+      
+    <page background="texton.png">
+  	
+    <agent 
+      text="FIM - Prólogo" color="white" font-size="30"
+      x="150" y="300" width="300"/> 
+    <agent 
+    <agent 
+      text="Voltar ao Início" color="white" font-size="20"
+      x="170" y="270" width="300" on-touch="_GOTO_PAGE:1"/> 
+    
+  </page>
+
 </fable>
