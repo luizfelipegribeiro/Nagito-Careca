@@ -1,6 +1,6 @@
 <fable>
   
-	<page background="menu.png">
+	<page background="menu.png" soundtrack="1.wav">
   	
    
     
@@ -202,7 +202,7 @@
       text="- Mas, cada vez mais que ele se aproxima, sua consciência vai sumindo aos poucos até que em certo momento ele desmaia por completo." color="white" 
       x="20" y="320" width="480"/> 
     <agent 
-      text="- Até que então ele acorda na enfermaria e descobre que tu do é um sonho..." color="white" 
+      text="- Até que então ele acorda na enfermaria e descobre que tudo é um sonho..." color="white" 
       x="20" y="280" width="480" on-touch="_NEXT_PAGE"/>
       <agent img="seta.png" x="120" y="280" width="20" height="15"/>
     
